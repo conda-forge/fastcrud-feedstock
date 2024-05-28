@@ -1,5 +1,5 @@
 {% set name = "fastcrud" %}
-{% set version = "0.12.1" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fastcrud-{{ version }}.tar.gz
-  sha256: 48f000a655c3416b97cbc8a008b1a3dce572536a781b5a133f7d83cc7a32c7f4
+  sha256: 2befa7f0d43e55602e6304b2a706cc54cd210ee5719bdc263f54cde78cf892ad
 
 build:
   noarch: python
