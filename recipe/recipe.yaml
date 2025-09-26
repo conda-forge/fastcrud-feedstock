@@ -40,7 +40,7 @@ about:
   summary: FastCRUD is a Python package for FastAPI, offering robust async CRUD operations and flexible endpoint creation utilities.
   license: MIT
   license_file: LICENSE
-  homepage: https://github.com/igorbenav/fastcrud
+  homepage: https://github.com/benavlabs/fastcrud
 
 extra:
   recipe-maintainers:
