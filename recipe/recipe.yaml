@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: fastcrud
-  version: "0.19.2"
+  version: "0.20.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/fastcrud-${{ version }}.tar.gz
-  sha256: d048177cfd6fc1209a36ee71d9790bc7fc16a2c5d856ff783273699533b43bb3
+  sha256: e868f7ba58ce1da8f005f06eae99c31d0a751f7dc5d1934ae9745cf163c55bac
 
 build:
   number: 0
