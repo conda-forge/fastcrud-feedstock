@@ -30,6 +30,7 @@ requirements:
     - fastapi >=0.100.0
     # Needed for sqlalchemy due to asyncio
     - greenlet >=3.0.3,<4
+    - pendulum >=3.0
 
 tests:
   - python:
